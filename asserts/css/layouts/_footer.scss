@@ -1,0 +1,32 @@
+.footer_area {
+  background-color: black;
+  text-align: center;
+  min-height: 60px;
+  padding: 20px 0;
+
+  p {
+    width: 40%;
+    float: left;
+    color: $white;
+  }
+}
+
+.footer_area .menu {
+  float: right;
+  width: 60%;
+
+  ul {
+    li {
+      display: inline-block;
+
+      a {
+        padding: 10px;
+        color: white;
+        transition: .3s;
+        &:hover{
+          color: $primary_color;
+        }
+      }
+    }
+  }
+}
